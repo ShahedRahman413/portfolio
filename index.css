@@ -1,0 +1,56 @@
+span {
+  color: #fd6e0a;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+}
+nav li button {
+  background-color: #fd6e0a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* nav ul {
+  display: flex;
+  gap: 30px;
+}
+nav li {
+  list-style: none;
+  padding: 5px;
+}
+
+nav li a:hover {
+  color: red;
+}
+nav li a {
+  text-decoration: none;
+}
+
+nav li .nested {
+  display: none;
+}
+
+nav li:hover > .nested {
+  display: block;
+  background-color: aliceblue;
+  padding-left: 5px;
+
+  position: absolute;
+} */
