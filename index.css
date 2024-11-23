@@ -1,3 +1,7 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff8f3;
+}
 span {
   color: #fd6e0a;
 }
@@ -19,12 +23,38 @@ nav li {
 nav li a {
   text-decoration: none;
 }
-nav li button {
+.button {
   background-color: #fd6e0a;
   color: #fff;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
+}
+header {
+  background-image: url("images/header_bg.png"), url("images/developer.png");
+  background-position: bottom right, left;
+  background-repeat: no-repeat;
+}
+.headerSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+}
+.textDiv {
+  /* width: 50%; */
+  padding-left: 50px;
+}
+.name {
+  font-size: 85px;
+  font-weight: 700;
+}
+.imgDiv {
+  /* width: 50%; */
+}
+#man {
+  /* width: 1036px;
+  height: 518px; */
 }
 
 /* nav ul {
